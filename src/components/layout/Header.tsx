@@ -36,9 +36,9 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* Phone Number - Desktop */}
+          {/* Phone Number - Desktop with UAE Flag */}
           <div className="hidden lg:flex items-center gap-2 text-primary font-medium">
-            <Phone className="w-4 h-4" />
+            <span className="text-lg">🇦🇪</span>
             <a href="tel:+971123456789" className="hover:text-primary/80 transition-colors">
               +971 123 456 789
             </a>
@@ -72,7 +72,7 @@ const Header = () => {
                 href="tel:+971123456789"
                 className="flex items-center gap-2 text-primary font-medium py-2"
               >
-                <Phone className="w-4 h-4" />
+                <span className="text-lg">🇦🇪</span>
                 +971 123 456 789
               </a>
             </nav>

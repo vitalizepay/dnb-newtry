@@ -9,6 +9,13 @@ import WhatWeDo from "./pages/WhatWeDo";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import Partnerships from "./pages/services/Partnerships";
+import ManagementConsulting from "./pages/services/ManagementConsulting";
+import CorporateServices from "./pages/services/CorporateServices";
+import CompanyFormation from "./pages/services/CompanyFormation";
+import AccountingFinancialServices from "./pages/services/AccountingFinancialServices";
+import FinancialPlanning from "./pages/services/FinancialPlanning";
+import TechnologyConsulting from "./pages/services/TechnologyConsulting";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +31,14 @@ const App = () => (
           <Route path="/what-we-do" element={<WhatWeDo />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/contact" element={<Contact />} />
+          {/* Service Pages */}
+          <Route path="/services/partnerships" element={<Partnerships />} />
+          <Route path="/services/management-consulting" element={<ManagementConsulting />} />
+          <Route path="/services/corporate-services" element={<CorporateServices />} />
+          <Route path="/services/company-formation" element={<CompanyFormation />} />
+          <Route path="/services/accounting-financial-services" element={<AccountingFinancialServices />} />
+          <Route path="/services/financial-planning" element={<FinancialPlanning />} />
+          <Route path="/services/technology-consulting" element={<TechnologyConsulting />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
