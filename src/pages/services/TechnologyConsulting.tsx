@@ -4,11 +4,11 @@ import ServiceHero from '@/components/services/ServiceHero';
 import ServicesList from '@/components/services/ServicesList';
 import ServiceBenefits from '@/components/services/ServiceBenefits';
 import CTASection from '@/components/home/CTASection';
-import sectionImg6 from '@/assets/section-img-6.jpg';
-import sectionImg8 from '@/assets/section-img-8.jpg';
-import sectionImg9 from '@/assets/section-img-9.jpg';
-import sectionImg2 from '@/assets/section-img-2.jpg';
-import sectionImg3 from '@/assets/section-img-3.jpg';
+import technologyHero from '@/assets/technology-hero.jpg';
+import technologyCollage1 from '@/assets/technology-collage-1.jpg';
+import technologyCollage2 from '@/assets/technology-collage-2.jpg';
+import technologyCollage3 from '@/assets/technology-collage-3.jpg';
+import technologyCollage4 from '@/assets/technology-collage-4.jpg';
 
 const services = [
   {
@@ -41,7 +41,7 @@ const TechnologyConsulting = () => {
         headline="Smart Tech Progress."
         accentHeadline="Do More!"
         description="In today's digital age, leveraging the right technology is crucial for achieving operational excellence and driving innovation. Dillon & Bird provides expert technology consulting services to help GCC businesses implement smart systems that enhance workflows and unlock new levels of efficiency."
-        image={sectionImg6}
+        image={technologyHero}
         imageAlt="Technology consulting and digital transformation"
       />
       
@@ -53,7 +53,7 @@ const TechnologyConsulting = () => {
       <ServiceBenefits
         title="What It Means For You"
         description="Digital transformation expertise to modernize your operations, enhance customer experiences, and build competitive advantage. We help you leverage technology to achieve your strategic objectives."
-        images={[sectionImg8, sectionImg9, sectionImg2, sectionImg3]}
+        images={[technologyCollage1, technologyCollage2, technologyCollage3, technologyCollage4]}
         ctaText="Get Started"
         ctaLink="/contact"
       />

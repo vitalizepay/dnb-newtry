@@ -4,28 +4,28 @@ import ServiceHero from '@/components/services/ServiceHero';
 import ServicesList from '@/components/services/ServicesList';
 import ServiceBenefits from '@/components/services/ServiceBenefits';
 import CTASection from '@/components/home/CTASection';
-import sectionImg5 from '@/assets/section-img-5.jpg';
-import sectionImg8 from '@/assets/section-img-8.jpg';
-import sectionImg9 from '@/assets/section-img-9.jpg';
-import sectionImg2 from '@/assets/section-img-2.jpg';
-import sectionImg3 from '@/assets/section-img-3.jpg';
+import managementHero from '@/assets/management-hero.jpg';
+import managementCollage1 from '@/assets/management-collage-1.jpg';
+import managementCollage2 from '@/assets/management-collage-2.jpg';
+import managementCollage3 from '@/assets/management-collage-3.jpg';
+import managementCollage4 from '@/assets/management-collage-4.jpg';
 
 const services = [
   {
-    title: 'Strategic Planning',
-    description: 'Developing comprehensive strategies aligned with your business objectives and market dynamics.'
-  },
-  {
-    title: 'Operational Excellence',
-    description: 'Streamlining processes and optimizing operations for maximum efficiency and profitability.'
+    title: 'Comprehensive Growth Strategy Development',
+    description: 'We work with you to define clear objectives, identify key growth drivers, and develop actionable strategies.'
   },
   {
     title: 'Organizational Transformation',
-    description: 'Guiding your organization through change with minimal disruption and maximum impact.'
+    description: 'We guide you through periods of change, ensuring smooth transitions and fostering a culture of adaptability and innovation.'
   },
   {
-    title: 'Performance Management',
-    description: 'Implementing robust systems to track, measure, and improve business performance.'
+    title: 'Operational Excellence',
+    description: 'We analyze your existing operations, identify areas for improvement, and implement solutions to enhance efficiency and productivity.'
+  },
+  {
+    title: 'Market Entry and Expansion Strategies',
+    description: 'We provide insights and guidance for successfully entering new GCC markets.'
   }
 ];
 
@@ -41,20 +41,20 @@ const ManagementConsulting = () => {
         headline="Strategic Growth Defined."
         accentHeadline="Do More!"
         description="Navigating the complexities of the GCC business landscape requires a clear and adaptable growth strategy. Dillon & Bird provides expert management consulting services designed to equip your organization with the strategic foresight and operational frameworks needed to achieve sustainable success."
-        image={sectionImg5}
+        image={managementHero}
         imageAlt="Management consulting and strategic planning"
       />
       
       <ServicesList
-        title="Our Management Consulting Services Include:"
+        title="Our Tailored Consulting Approach Provides:"
         services={services}
       />
       
       <ServiceBenefits
         title="What It Means For You"
-        description="Our consultants bring deep industry expertise to solve your most complex challenges. We work alongside your leadership team to develop and implement strategies that drive real, measurable results."
-        images={[sectionImg8, sectionImg9, sectionImg2, sectionImg3]}
-        ctaText="Get Started"
+        description="Gain clarity and direction for sustainable growth. Our management consulting services provide you with the strategic roadmap and operational support needed to achieve your business objectives in the GCC."
+        images={[managementCollage1, managementCollage2, managementCollage3, managementCollage4]}
+        ctaText="Plan Your Growth"
         ctaLink="/contact"
       />
       
