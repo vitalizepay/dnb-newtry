@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Linkedin, Instagram } from 'lucide-react';
-import logo from '@/assets/logo.png';
+import logoFull from '@/assets/logo-full.png';
 
 const services = [
   'Partnerships',
@@ -15,6 +15,7 @@ const services = [
 const company = [
   { label: 'Who We Are', href: '/who-we-are' },
   { label: 'What We Do', href: '/what-we-do' },
+  { label: 'About Us', href: '/about-us' },
   { label: 'Blogs', href: '/blogs' },
 ];
 
@@ -25,7 +26,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
           {/* About Column */}
           <div className="space-y-6">
-            <img src={logo} alt="Dillon & Bird" className="h-8 w-auto brightness-0 invert" />
+            <img src={logoFull} alt="Dillon & Bird" className="h-8 w-auto brightness-0 invert" />
             <p className="text-sm text-primary-foreground/70 leading-relaxed">
               Premium consulting partner delivering strategic growth across the GCC. We help ambitious 
               businesses scale with confidence through expert guidance in finance, technology, and marketing.

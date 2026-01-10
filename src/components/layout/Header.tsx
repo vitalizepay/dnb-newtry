@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Phone } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import logo from '@/assets/logo.png';
+import uaeFlag from '@/assets/uae-flag.png';
 
 const navItems = [
   { label: 'Who We Are', href: '/who-we-are' },
   { label: 'What We Do', href: '/what-we-do' },
+  { label: 'About Us', href: '/about-us' },
   { label: 'Blogs', href: '/blogs' },
   { label: "Let's Connect", href: '/contact' },
 ];
@@ -38,7 +40,7 @@ const Header = () => {
 
           {/* Phone Number - Desktop with UAE Flag */}
           <div className="hidden lg:flex items-center gap-2 text-primary font-medium">
-            <span className="text-lg">🇦🇪</span>
+            <img src={uaeFlag} alt="UAE" className="h-4 w-auto" />
             <a href="tel:+971123456789" className="hover:text-primary/80 transition-colors">
               +971 123 456 789
             </a>
@@ -72,7 +74,7 @@ const Header = () => {
                 href="tel:+971123456789"
                 className="flex items-center gap-2 text-primary font-medium py-2"
               >
-                <span className="text-lg">🇦🇪</span>
+                <img src={uaeFlag} alt="UAE" className="h-4 w-auto" />
                 +971 123 456 789
               </a>
             </nav>
