@@ -4,28 +4,28 @@ import ServiceHero from '@/components/services/ServiceHero';
 import ServicesList from '@/components/services/ServicesList';
 import ServiceBenefits from '@/components/services/ServiceBenefits';
 import CTASection from '@/components/home/CTASection';
-import sectionImg4 from '@/assets/section-img-4.jpg';
-import sectionImg8 from '@/assets/section-img-8.jpg';
-import sectionImg9 from '@/assets/section-img-9.jpg';
-import sectionImg2 from '@/assets/section-img-2.jpg';
-import sectionImg3 from '@/assets/section-img-3.jpg';
+import financialHero from '@/assets/financial-hero.jpg';
+import corporateCollage1 from '@/assets/corporate-collage-1.jpg';
+import corporateCollage2 from '@/assets/corporate-collage-2.jpg';
+import corporateCollage3 from '@/assets/corporate-collage-3.jpg';
+import corporateCollage4 from '@/assets/corporate-collage-4.jpg';
 
 const services = [
   {
-    title: 'Investment Strategy Development',
-    description: 'Crafting tailored investment strategies aligned with your financial goals and risk tolerance.'
+    title: 'Financial Planning',
+    description: 'Developing comprehensive financial plans aligned with your objectives, whether for business expansion or personal wealth management.'
   },
   {
-    title: 'Capital Structure Optimization',
-    description: 'Optimizing your capital structure to maximize returns and minimize costs.'
+    title: 'Investment Strategy Development',
+    description: 'Creating tailored investment strategies to maximize returns and mitigate risks within the GCC market.'
   },
   {
     title: 'Investor Relations',
-    description: 'Building and maintaining strong relationships with investors through transparent communication.'
+    description: 'Preparing investor-ready materials and strategies to effectively attract and engage potential investors.'
   },
   {
-    title: 'Financial Modeling & Forecasting',
-    description: 'Comprehensive financial models and forecasts to support strategic decision-making.'
+    title: 'Due Diligence Support',
+    description: 'Assisting investors in evaluating opportunities and providing comprehensive due diligence services.'
   }
 ];
 
@@ -41,20 +41,20 @@ const FinancialPlanning = () => {
         headline="Secure and Grow."
         accentHeadline="Do More!"
         description="Achieving your long-term financial goals and attracting the right investors requires strategic planning and a deep understanding of the GCC investment landscape. Dillon & Bird offers tailored financial planning and investor services to help you secure your future and fuel your growth."
-        image={sectionImg4}
+        image={financialHero}
         imageAlt="Financial planning and investor services"
       />
       
       <ServicesList
-        title="Our Financial Planning Services Include:"
+        title="Our Services Include:"
         services={services}
       />
       
       <ServiceBenefits
         title="What It Means For You"
-        description="Strategic financial advisory services to attract investment, optimize capital structure, and plan for sustainable growth. We help you navigate the complexities of the investment landscape with confidence."
-        images={[sectionImg8, sectionImg9, sectionImg2, sectionImg3]}
-        ctaText="Get Started"
+        description="Secure your financial future and attract the capital you need to grow. Our expert financial planning and investor services provide you with the strategic guidance and support necessary to achieve your long-term financial aspirations in the GCC."
+        images={[corporateCollage1, corporateCollage2, corporateCollage3, corporateCollage4]}
+        ctaText="Invest Smarter"
         ctaLink="/contact"
       />
       
