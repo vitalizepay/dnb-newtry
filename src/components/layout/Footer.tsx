@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Linkedin, Instagram } from 'lucide-react';
-import logoFull from '@/assets/logo-full.png';
+import logoFull from '@/assets/logo.png';
 
 const services = [
   'Partnerships',
