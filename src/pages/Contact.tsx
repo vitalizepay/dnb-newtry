@@ -150,7 +150,7 @@ const Contact = () => {
                     value={formData.phone}
                     onChange={handleChange}
                     required
-                    placeholder="+971 50 123 4567"
+                    placeholder="+971 52 208 5242"
                     className="w-full px-4 py-3 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary bg-background"
                   />
                 </div>
